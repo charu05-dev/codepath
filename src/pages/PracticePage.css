@@ -1,0 +1,130 @@
+.practice-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filter-controls-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 40px;
+  background-color: var(--bg-subtle);
+  font-size: 13.5px;
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 12px;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-clear-btn:hover {
+  color: var(--text-primary);
+}
+
+.filters-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-select-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-label {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.filter-select {
+  padding: 6px 12px;
+  font-size: 12.5px;
+  background-color: var(--bg-canvas);
+}
+
+.reset-filters-btn {
+  margin-left: auto;
+}
+
+.results-counter {
+  font-size: 11px;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border-muted);
+  padding-top: 12px;
+}
+.results-counter span {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.questions-list-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.practice-table th, .practice-table td {
+  padding: 14px 18px;
+}
+
+.question-title-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: left;
+  transition: color var(--transition-fast);
+}
+.question-title-link:hover {
+  color: var(--accent-violet-light);
+}
+
+.question-table-summary {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.4;
+  max-width: 460px;
+}
+
+.inline-icon {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.row-action-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.text-right {
+  text-align: right;
+}
